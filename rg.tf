@@ -3,5 +3,6 @@ resource "azurerm_resource_group" "rg" {
      location = "eastus"
      tags = {
        Env = krishna
+        owner = "prod"
      }
  }
